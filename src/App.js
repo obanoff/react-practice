@@ -24,7 +24,7 @@ function App() {
   };
 
   return (
-    <Card state={state} onClick={onClickHandler}>
+    <Card>
       <UserInput
         onAddUser={addUserHandler}
         state={state}
