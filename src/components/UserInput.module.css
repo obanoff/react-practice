@@ -1,12 +1,12 @@
 .form-input {
   display: flex;
   flex-flow: column;
-  width: 40%;
+  width: 500px;
   align-items: flex-start;
   padding: 1rem;
   background-color: white;
   border-radius: 10px;
-  margin: 2rem 0;
+  margin: 2rem;
   font-weight: bold;
 }
 
@@ -16,6 +16,5 @@
   margin-bottom: 8px;
   width: 100%;
 }
-
 
 

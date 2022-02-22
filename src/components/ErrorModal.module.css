@@ -1,0 +1,38 @@
+.error-modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.error-modal__window {
+  position: relative;
+  top: 20%;
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.error-modal__label {
+  background-color: #4e034e;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 100%;
+  padding: 12px;
+}
+
+.error-modal__body {
+  display: flex;
+  flex-flow: column;
+  padding: 1rem;
+}
+
+.error-modal__body button {
+  margin-top: 1rem;
+  align-self: flex-end;
+}
