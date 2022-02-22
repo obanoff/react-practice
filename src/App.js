@@ -11,6 +11,7 @@ function App() {
   const [errorMessage, setErrorMessage] = React.useState('');
 
   const onClickHandler = (e) => {
+    if (e.target !== e.currentTarget) return;
     setState(true);
   };
 
